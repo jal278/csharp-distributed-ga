@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="dist-ga\database.cs">
+    <Files>
+      <File FileName="dist-ga\Main.cs" Line="9" Column="41" />
+      <File FileName="dist-ga\SimpleGA.cs" Line="24" Column="1" />
+      <File FileName="dist-ga\database.cs" Line="44" Column="2" />
+      <File FileName="simple-consumer\Main.cs" Line="27" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
