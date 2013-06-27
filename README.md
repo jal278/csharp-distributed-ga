@@ -18,3 +18,18 @@ Configuration
 The basic C# configuration requires access to a mongo database (by default the c# example connects to localhost, e.g. a local database hosted on the same computer as the C# install). Mongo can be downloaded from http://www.mongodb.org/ and is multi-platform.
 
 Running the Unity example requires a webserver (which can be locally hosted, e.g. through WAMP on windows or a local Apache/nginx install on Linux). The webserver configuration requires PHP (with the PHP MongoDB extension http://www.php.net/manual/en/mongo.installation.php).
+
+File Structure
+-------------------
+
+- **csharp-dist-ga**
+  The C# implementation of the distributed genetic algorithm and an example
+  worker C# implementation.
+
+- **simple-unity-client**
+  A Unity game-engine client that can grab tasks from the C# server
+  *Note: requires a webserver running the generic php client below*
+
+- **webserver-php-for-generic-clients**
+  Through these PHP scripts on the webserver you can write consumers for any
+  language that can do HTTP requests.
